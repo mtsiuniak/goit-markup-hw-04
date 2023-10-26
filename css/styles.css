@@ -28,7 +28,6 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
-    width: 1440px;
     margin: 0 auto;
     
 }
@@ -163,10 +162,11 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     background-image: linear-gradient(
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(/images/people-office.jpg);
+            url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin: 0 auto;
 }
 
 .main-title {
